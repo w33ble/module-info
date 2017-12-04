@@ -1,6 +1,6 @@
 {
   "name": "@w33bletools/module-info",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get information about your npm module, using git and your package file",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "engines" : {
-    "node" : ">=6.9.0",
+  "engines": {
+    "node": ">=6.9.0",
     "npm": ">=3.10.8",
     "yarn": "^1.3.2"
   },
