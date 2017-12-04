@@ -18,6 +18,9 @@
     "url": "https://github.com/w33ble/module-info/issues"
   },
   "homepage": "https://github.com/w33ble/module-info",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines" : {
     "node" : ">=6.9.0",
     "npm": ">=3.10.8",
