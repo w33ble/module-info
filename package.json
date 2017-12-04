@@ -18,7 +18,11 @@
     "url": "https://github.com/w33ble/module-info/issues"
   },
   "homepage": "https://github.com/w33ble/module-info",
-  "dependencies": {},
+  "dependencies": {
+    "@std/esm": "^0.18.0",
+    "git-repo-info": "^1.4.1",
+    "pkg-dir": "^2.0.0"
+  },
   "devDependencies": {
     "eslint": "^3.19.0 || ^4.3.0",
     "eslint-config-airbnb": "^16.1.0",
