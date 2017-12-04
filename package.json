@@ -1,0 +1,30 @@
+{
+  "name": "@w33bletools/module-info",
+  "version": "0.0.0",
+  "description": "Get information about your npm module, using git and your package file",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js src/**/*.js",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w33ble/module-info.git"
+  },
+  "keywords": [],
+  "author": "Joe Fleming (https://github.com/w33ble)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w33ble/module-info/issues"
+  },
+  "homepage": "https://github.com/w33ble/module-info",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0 || ^4.3.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3"
+  }
+}
