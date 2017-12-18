@@ -4,7 +4,7 @@ import readPackage from './read_package.mjs';
 import gitInfo from './git_info.mjs';
 
 export default function moduleInfo(basepath) {
-  const rootPath = basepath || pkgDir.sync(path.resolve(__dirname, '..'));
+  const rootPath = basepath || pkgDir.sync(path.resolve(__dirname, '..', '..'));
 
   return {
     pkg: readPackage(rootPath),
